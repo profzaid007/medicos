@@ -44,7 +44,7 @@ const ContextProvider = (props) => {
 
 
     
-    }
+    
     const contextValue = {
         prevPrompts,
         setPrevPrompts,
@@ -64,5 +64,6 @@ const ContextProvider = (props) => {
         </Context.Provider>
     )
 
+    }
 
-export default ContextProvider
+export default ContextProvider;
