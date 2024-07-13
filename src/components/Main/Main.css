@@ -33,8 +33,8 @@
     -webkit-text-fill-color: transparent;
 }
 .main .cards{
-    display: grid;
-    grid-template-columns: repeat(autofill, mimax(180px, 1fr));
+    display: flex;
+    /* grid-template-columns: repeat(autofill, mimax(180px, 1fr)); */
     gap: 15px;
     padding: 20px;
 }
